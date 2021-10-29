@@ -180,7 +180,7 @@ span {
 .option {
     display: flex;
     justify-content: center;
-    column-gap: 1.5em;
+    column-gap: 1em;
 }
 
 .option li {
@@ -188,10 +188,18 @@ span {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    min-width: 65px;
 }
 
 .option li:nth-child(4) {
     min-width: 125px;
+    padding-bottom: 0.4em;
+}
+
+.option li:nth-child(4) a:first-child i {
+    top: 15%;
+    left: 30%;
+    color: rgb(5, 179, 5);
 }
 
 .option li:nth-child(4) a:last-child i {
@@ -203,8 +211,8 @@ span {
 .option li a i{
     font-size: 2.5em;
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 15%;
+    left: 18%;
 }
 
 .option li:not(li:nth-child(4)) a{
@@ -218,6 +226,16 @@ span {
     width: 100%;
     height: 20%;
 }
+
+.option li:nth-child(3) a i{
+    left: 30%;
+}
+
+.option li:nth-child(7) a i{
+    left: 25%;
+}
+
+
   
 
   
