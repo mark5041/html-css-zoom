@@ -1,0 +1,11 @@
+.camera-mic li a:last-child:hover, .option li a:last-child:hover {
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.btn-end:hover {
+    color: rgb(155, 0, 0);
+}
